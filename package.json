@@ -4,7 +4,7 @@
   "description": "a smogon discord bot to see pokemon stats",
   "main": "src/main.ts",
   "scripts": {
-    "test": "tsc && ts-node src/main.ts"
+    "start": "tsc && ts-node src/main.ts"
   },
   "author": "duro",
   "license": "ISC",
@@ -23,7 +23,8 @@
     "discordjs-button-pagination": "^3.0.1",
     "node-fetch": "^2.6.7",
     "pokemon": "^2.3.3",
-    "ts-dotenv": "^0.8.3"
+    "ts-dotenv": "^0.8.3",
+    "ts-node": "^10.8.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.27.0",
